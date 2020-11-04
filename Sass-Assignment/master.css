@@ -1,0 +1,198 @@
+@font-face {
+  font-family: catsFont;
+  src: url("./Fonts/deathrattlebb_reg.ttf");
+}
+
+@font-face {
+  font-family: breadFont;
+  src: url("./Fonts/Mermaid.otf");
+}
+
+@font-face {
+  font-family: subTitleFont;
+  src: url("./Fonts/Top Modern.otf");
+}
+
+body {
+  background-color: white;
+  margin: auto;
+  font-size: 1.4em;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  font-family: breadFont;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar h2 {
+  font-size: 5em;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  font-family: catsFont;
+}
+
+.navbar h2:hover {
+  font-size: 5em;
+  color: red;
+  font-weight: normal;
+  text-align: center;
+}
+
+.startPar, .middlePar, .lastPar {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  height: 100vh;
+}
+
+.startPar {
+  background-image: url(Images/garfield.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.startPar div {
+  margin: 5%;
+  width: 30%;
+  background-color: #fff;
+  -webkit-box-shadow: black 0 0 20px;
+          box-shadow: black 0 0 20px;
+  font-size: 1.3em;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding: 3%;
+}
+
+.main {
+  height: 30vh;
+  background-color: #fff;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main h1 {
+  font-size: 3.5em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: subTitleFont;
+}
+
+.main h1:hover {
+  cursor: pointer;
+}
+
+.middlePar {
+  background-image: url(Images/CatAtNight.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middlePar div {
+  margin: 5%;
+  width: 30%;
+  background-color: #fff;
+  -webkit-box-shadow: black 0 0 20px;
+          box-shadow: black 0 0 20px;
+  font-size: 1.3em;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding: 3%;
+}
+
+.mediabox {
+  font-size: 1.2em;
+  color: #691A26;
+  font-weight: normal;
+  text-align: center;
+  padding: 4%;
+}
+
+#lastPar {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(Images/CatVaccum.gif);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#lastPar div {
+  margin: 5%;
+  width: 30%;
+  background-color: #fff;
+  -webkit-box-shadow: black 0 0 20px;
+          box-shadow: black 0 0 20px;
+  padding: 3%;
+  font-size: 1.3em;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+}
+/*# sourceMappingURL=master.css.map */

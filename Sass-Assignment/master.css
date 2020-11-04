@@ -50,7 +50,9 @@ body {
   text-align: center;
 }
 
-.startPar, .middlePar, #lastPar {
+.startPar,
+.middlePar,
+#lastPar {
   height: 100vh;
   background-attachment: fixed;
   background-position: center;

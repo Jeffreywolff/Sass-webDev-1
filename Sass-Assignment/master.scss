@@ -10,7 +10,7 @@
 @include customFont($breadFont, breadFont);
 @include customFont($subTitleFont, subTitleFont);
 
-body{
+body {
     background-color: white;
     margin: auto;
     @include textProp(1.4em, black, normal, center);
@@ -19,14 +19,14 @@ body{
 
 
 
-.navbar{
+.navbar {
     @include flexProp(center, center);
-    
-    h2{
+
+    h2 {
         @include textProp(5em, black, normal, center);
         font-family: catsFont;
 
-        &:hover{
+        &:hover {
             @include textProp(5em, red, normal, center);
         }
     }
@@ -34,46 +34,51 @@ body{
 
 
 // Sets conditions for all parallax boxes
-.startPar, .middlePar, #lastPar{
+.startPar,
+.middlePar,
+#lastPar {
     @include parallaxProp();
     background-color: red;
     height: 100vh;
 }
 
-.startPar{
+.startPar {
     background-image: $parallax_Img1;
     @include flexProp(start, center);
-    div{
+
+    div {
         margin: 5%;
         width: 30%;
         background-color: #fff;
         box-shadow: black 0 0 20px;
         @include textProp(1.3em, black, normal, center);
         padding: 3%;
-        
+
     }
 }
 
-.main{
+.main {
     height: 30vh;
     background-color: #fff;
     color: black;
     @include flexProp(center, center);
     justify-content: space-around;
-    h1{
+
+    h1 {
         @include textProp(3.5em, black, bold, center);
         font-family: subTitleFont;
     }
 
-    h1:hover{
+    h1:hover {
         cursor: pointer;
     }
 }
 
-.middlePar{
+.middlePar {
     background-image: $parallax_Img2;
     @include flexProp(flex-end, center);
-    div{
+
+    div {
         margin: 5%;
         width: 30%;
         background-color: #fff;
@@ -83,27 +88,29 @@ body{
     }
 }
 
-.mediabox{
-    
+.mediabox {
+
     @include textProp(1.2em, #691A26, normal, center);
     padding: 4%;
 }
 
-#lastPar{
-   background-image: $parallax_Img3;
-   @include flexProp(flex-start, center);
-   div{
+#lastPar {
+    background-image: $parallax_Img3;
+    @include flexProp(flex-start, center);
+
+    div {
         margin: 5%;
         width: 30%;
         background-color: #fff;
         box-shadow: black 0 0 20px;
         padding: 3%;
         @include textProp(1.3em, black, normal, center);
-   }
+    }
 
-   
+
 }
-.footer{
+
+.footer {
     @include flexProp(center, center);
     width: 100%;
     height: 100px;

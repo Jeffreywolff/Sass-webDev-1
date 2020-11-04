@@ -2,7 +2,7 @@
 
 
 // This mixin sets the image to a parallax style.
-@mixin parallaxProp(){
+@mixin parallaxProp() {
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -11,14 +11,14 @@
 }
 
 // This mixin sets the element to a flexbox element. The parameters decide where the child elements should be posisioned.
-@mixin flexProp($orientation, $orientation2){
+@mixin flexProp($orientation, $orientation2) {
     display: flex;
     justify-content: $orientation;
     align-items: $orientation2;
 }
 
 // Sets the background image of an element and if it wants to repeat.
-@mixin singleImgProp($image, $repeat){
+@mixin singleImgProp($image, $repeat) {
     background-image: $image;
     background-position: center;
     background-size: cover;
@@ -26,17 +26,17 @@
 }
 
 // Creates a font-family. The parameters states the path and the name of the font.
-@mixin customFont($path, $fontName){
-    @font-face{
+@mixin customFont($path, $fontName) {
+    @font-face {
         font-family: $fontName;
         src: url($path);
     }
 }
 
 // Sets the size, color, weight and position of a text. Customizes a text.
-@mixin textProp($size, $color, $weight, $pos){
+@mixin textProp($size, $color, $weight, $pos) {
     font-size: $size;
     color: $color;
     font-weight: $weight;
-    text-align: $pos ;
+    text-align: $pos;
 }
